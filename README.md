@@ -3,7 +3,7 @@ Official implementation of PRoTeD: Structure-aware Detection of Camouflaged Mach
 
 PRoTeD is a structure-aware framework for detecting machine-generated and LLM-polished text. Instead of relying only on static semantic or likelihood-based signals, PRoTeD explicitly probes how textual structure responds to controlled perturbation and subsequent coherence recovery.
 
-Overview
+## Overview
 
 PRoTeD consists of three main components:
 
@@ -13,7 +13,7 @@ Multi-route classification: integrates original semantic features, perturbation 
 
 The framework is evaluated on ten benchmark subsets from CHEAT and DetectRL, covering direct generation, LLM polishing, multiple domains, and multiple LLM generators.
 
-Requirements
+## Requirements
 
 The experiments are implemented in Python with PyTorch and Hugging Face Transformers.
 
